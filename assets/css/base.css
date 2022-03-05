@@ -1,0 +1,25 @@
+*{
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.dark {
+    --primary-color: #7200a1;
+    --white-color: #fff;
+    --text-color: #333;
+    --header-color: #282828;
+
+}
+
+.color {
+    --primary-color: #ed2b91;
+    --white-color: #fff;
+    --text-color: #333;
+    --header-color: #37075d;
+}

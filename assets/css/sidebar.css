@@ -1,0 +1,78 @@
+body {
+    /* background-image: url('https://scontent.fhan14-1.fna.fbcdn.net/v/t1.15752-9/232144148_216084143779499_3329986937972189851_n.png?_nc_cat=110&ccb=1-5&_nc_sid=ae9488&_nc_ohc=UOq9MtnQiewAX8biO6Q&_nc_ht=scontent.fhan14-1.fna&oh=03_AVJ96-dcKhwdPutsW-pPbDa1SHQ-0Zi6gjloV6hTX5SGBw&oe=624A6A4C'); */
+    background-image: url('https://scontent.fhan14-2.fna.fbcdn.net/v/t1.15752-9/233005549_785433565460322_6323185074768122672_n.png?_nc_cat=108&ccb=1-5&_nc_sid=ae9488&_nc_ohc=Lj2ze7e5yBIAX8fP8TB&_nc_ht=scontent.fhan14-2.fna&oh=03_AVL9CD16SlYe_oOyP6EjgX-H8rUaR_x3MkEVstbDTK1xyQ&oe=624A2175');
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -100;
+    background-attachment: fixed;
+}
+
+.main {
+    display: flex;
+    position: relative;
+}
+
+.sidebar {
+    width: 240px;
+    height: 100vh;
+    background-color: rgba(240, 240, 240, 0.04);
+    position: fixed;
+}
+
+.sidebar-logo {
+    padding: 16px 30px;
+}
+
+.sidebar-logo-img {
+    background-image: url('https://zmp3-static.zadn.vn/skins/zmp3-v6.1/images/backgrounds/logo-dark.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 240px;
+    height: 35px;
+}
+
+.sidebar-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar-item:hover,
+.sidebar-item:hover a {
+    color: #fff;
+    cursor: pointer;
+}
+
+.sidebar-item {
+    padding: 5px 30px;
+    position: relative;
+}
+
+.sidebar-item a {
+    text-decoration: none;
+    color: #999;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.sidebar-item.active {
+    background-color: rgba(235, 233, 233, 0.2);
+}
+
+.sidebar-item.active::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 4px;
+    background-color: var(--primary-color);
+}
+
+.sidebar-item.active a {
+    color: #fff;
+}
+
+.sidebar-icon {
+    font-size: 1.8rem;
+    padding: 5px 10px 5px 0;
+}

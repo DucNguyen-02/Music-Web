@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+            integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <link rel="stylesheet" href="./assets/font/Roboto/Roboto-Medium.ttf" />
+        <link rel="stylesheet" href="./assets/css/base.css" />
+        <link rel="stylesheet" href="./assets/css/sidebar.css" />
+        <link rel="stylesheet" href="./assets/css/content.css" />
+        <link rel="stylesheet" href="./assets/css/footer.css" />
+        <link rel="stylesheet" href="./assets/css/modal.css" />
+    </head>
+    <body class="dark">
+        <div class="modal">
+            <div class="modal-overlay"></div>
+            <div class="modal-body">
+                <h2 class="modal-body-header">Giao diện</h2>
+
+                <div class="modal-body-content">
+                    <span class="modal-body-close">
+                        <i class="fas fa-times"></i>
+                    </span>
+                    <h3 class="modal-body-content-sub">Chủ đề</h3>
+                    <ul class="modal-body-content-list">
+                        <li class="modal-body-content-item active">
+                            <img
+                                src="./assets/img/background1.png"
+                                alt=""
+                                class="modal-body-content-item-img"
+                            />
+                        </li>
+                        <li class="modal-body-content-item">
+                            <img
+                                src="./assets/img/background2.png"
+                                alt=""
+                                class="modal-body-content-item-img"
+                            />
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="main">
+            <nav class="sidebar">
+                <div class="sidebar-logo">
+                    <div class="sidebar-logo-img"></div>
+                </div>
+                <ul class="sidebar-list">
+                    <li class="sidebar-item active">
+                        <a href="#">
+                            <i class="sidebar-icon fab fa-spotify"></i>
+                            Cá nhân
+                        </a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="#">
+                            <i class="sidebar-icon fas fa-dot-circle"></i>
+                            Khám phá
+                        </a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="#">
+                            <i class="sidebar-icon fas fa-chart-line"></i>
+                            Zingchart
+                        </a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="#">
+                            <i class="sidebar-icon fas fa-broadcast-tower"></i>
+                            Radio
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="content">
+                <div class="header">
+                    <div class="header-left">
+                        <button class="header-left-btn">
+                            <i
+                                class="header-left-btn-icon fas fa-arrow-left"
+                            ></i>
+                        </button>
+                        <button class="header-left-btn">
+                            <i
+                                class="header-left-btn-icon fas fa-arrow-right"
+                            ></i>
+                        </button>
+                        <form class="header-left-search">
+                            <button class="header-left-search-btn">
+                                <i class="fas fa-search"></i>
+                            </button>
+                            <input
+                                type="text"
+                                class="header-left-search-input"
+                                placeholder="Nhập tên bài hát, nghệ sĩ hoặc MV..."
+                            />
+                        </form>
+                    </div>
+
+                    <div class="header-right">
+                        <div class="background-setting header-right-setting">
+                            <button class="header-right-setting-btn">
+                                <i class="fas fa-tshirt"></i>
+                            </button>
+                        </div>
+                        <div class="header-right-setting">
+                            <button class="header-right-setting-btn">
+                                <i class="fas fa-upload"></i>
+                            </button>
+                        </div>
+                        <div class="header-right-setting">
+                            <button class="header-right-setting-btn">
+                                <i class="fas fa-cog"></i>
+                            </button>
+                        </div>
+                        <div class="header-right-setting">
+                            <button class="header-right-setting-btn">
+                                <i class="fas fa-tshirt"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="user">
+                    <div class="user-avatar">
+                        <div
+                            class="user-avatar-img"
+                            style="background-image: url('./assets/img/1.jpg')"
+                        ></div>
+                    </div>
+                    <div class="user-name">
+                        Hi, I'm <span class="type"></span>
+                    </div>
+                </div>
+
+                <nav class="nav">
+                    <div class="nav-container">
+                        <ul class="nav-list">
+                            <li class="nav-list-item active">
+                                <a href="#">TỔNG QUAN</a>
+                            </li>
+                            <li class="nav-list-item">
+                                <a href="#">BÀI HÁT</a>
+                            </li>
+                            <li class="nav-list-item">
+                                <a href="#">PLAYLIST</a>
+                            </li>
+                            <li class="nav-list-item">
+                                <a href="#">NGHỆ SĨ</a>
+                            </li>
+                            <li class="nav-list-item">
+                                <a href="#">ALBUM</a>
+                            </li>
+                            <li class="nav-list-item">
+                                <a href="#">MV</a>
+                            </li>
+                            <li class="nav-list-item">
+                                <a href="#">TẢI LÊN</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+
+                <div class="songname">
+                    <div class="songname-header">
+                        <h3 class="songname-header-left">
+                            <a href="#">
+                                Bài Hát
+                                <i
+                                    class="songname-header-left-icon fas fa-chevron-right"
+                                ></i>
+                            </a>
+                        </h3>
+                        <div class="songname-header-right">
+                            <button
+                                class="songname-header-btn songname-header-right-upload"
+                            >
+                                <i class="fas fa-upload"></i>
+                                TẢI LÊN
+                            </button>
+                            <button
+                                class="songname-header-btn songname-header-right-playall"
+                            >
+                                <i class="fas fa-play"></i>
+                                PHÁT TẤT CẢ
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="songname-content">
+                        <div class="songname-content-img-wrapper">
+                            <img
+                                src="./assets/img/1.jpg"
+                                alt=""
+                                class="songname-content-img"
+                            />
+                        </div>
+
+                        <ul class="songname-content-list"></ul>
+                    </div>
+                </div>
+            </div>
+
+            <footer>
+                <div class="footer-wrapper">
+                    <div class="footer-wrapper-left">
+                        <img
+                            src="./assets/img/1.jpg"
+                            alt=""
+                            class="footer-thumb-img"
+                        />
+                        <div class="footer-thumb-content">
+                            <div class="songname-content-item-detail-left">
+                                <span
+                                    class="footer-songname songname-content-item-detail-left-name"
+                                >
+                                    Nép vào anh và nghe anh hát
+                                </span>
+                                <a
+                                    href=""
+                                    class="songname-content-item-detail-left-author"
+                                    >Hoàng Dũng</a
+                                >
+                            </div>
+                            <div class="songname-content-item-detail-right">
+                                <button
+                                    class="songname-content-btn songname-content-btn-heart"
+                                >
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                                <button class="songname-content-btn">
+                                    <i
+                                        class="songname-content-btn-options fas fa-ellipsis-h"
+                                    ></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-wrapper-center">
+                        <div class="footer-control">
+                            <div class="footer-btn btn-repeat">
+                                <i class="fas fa-redo"></i>
+                            </div>
+                            <div class="footer-btn btn-prev">
+                                <i class="fas fa-step-backward"></i>
+                            </div>
+                            <div class="footer-btn around btn-toggle-play">
+                                <i class="fas fa-pause icon-pause"></i>
+                                <i class="fas fa-play icon-play"></i>
+                            </div>
+                            <div class="footer-btn btn-next">
+                                <i class="fas fa-step-forward"></i>
+                            </div>
+                            <div class="footer-btn btn-random">
+                                <i class="fas fa-random"></i>
+                            </div>
+                        </div>
+
+                        <input
+                            id="progress"
+                            class="footer-progress"
+                            type="range"
+                            value="0"
+                            step="1"
+                            min="0"
+                            max="100"
+                        />
+
+                        <audio id="audio" src=""></audio>
+                    </div>
+                    <div class="footer-wrapper-right">
+                        <div class="footer-volume">
+                            <i class="footer-volume-icon fas fa-volume-up"></i>
+                            <input
+                                id="progressVolume"
+                                class="progressVolume"
+                                type="range"
+                                value="0"
+                                step="1"
+                                min="0"
+                                max="100"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <script src="./assets/JS/typed.js-master/lib/typed.js"></script>
+        <script src="./assets/JS/typed-name.js"></script>
+        <script src="./assets/JS/music-song.js"></script>
+        <script src="./assets/JS/clickEvent.js"></script>
+    </body>
+</html>
